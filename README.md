@@ -1,8 +1,8 @@
 
-This is just a dump of the code I used to test ESP8266 webserver performance while SPI communication is taking place using ESPAsyncWebserver.
+This is now just a dump of the code we used to test ESP8266 performance with the LoRa DRF1276G radio tranceiver. It also includes an example of an ESPAsyncWebserver.
 
 * esp8266_main is the code and data for the ESP8266
-* arduino_spi_test is the code for running on a 3.3v arduino as an SPI slave
+* arduino_spi_test is the code for running on a 3.3v arduino as an SPI slave (used for testing SPI functionality)
 
 You will need to install the ESP8266 addon for the Arduino IDE to upload the firmware. See [this guide](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon).
 
